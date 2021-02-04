@@ -1,0 +1,19 @@
+{
+  "configs": [
+    "ch-usage-sync.xml"
+  ],
+  "redeploymentEnabled": true,
+  "name": "ch-usage-sync",
+  "minMuleVersion": "4.0.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedResources": []
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
